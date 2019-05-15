@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TestReverseToReturnReversedInputString(t *testing.T) {
+func TestFindLonelyNumber(t *testing.T) {
 	var a = [9]int{2,3,4,1,5,3,5,2,4}
 
 	actualResult := findLonelyNumber(a[:]...)
